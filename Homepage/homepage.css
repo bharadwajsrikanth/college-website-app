@@ -1,0 +1,124 @@
+body {
+font-family: Arial, Helvettica, sans-serif;
+font-size: 0.8em;
+
+}
+body {
+padding: 0;
+margin: 0;
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 1.2em;
+line-height: 1.5em;
+background-color: white;
+}
+
+h1,h4 {
+text-align:center;
+}
+
+
+
+ul.menu-bar,
+ul.menu-bar li,
+ul.menu-bar2{
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.menu-bar li {
+    display: block;
+    position: relative;
+    float: left;
+	
+}
+li ul.menu-bar2 {
+    display: none;
+	
+}
+ul.menu-bar li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 8px 31.3px 8px 31.3px;
+    background: #000066;
+    margin-left: 1px;
+	float:center;
+    white-space: nowrap;
+}
+ul.menu-bar li a:hover {
+background: #3b3b3b;
+}
+li:hover ul.menu-bar2 {
+    display: block;
+    position: absolute;
+	
+}
+li:hover li {
+    float: none;
+    font-size: 11px;
+}
+li:hover a { background:#3b3b3b; }
+li:hover li a:hover {
+    background: #3b3b3b;
+}
+div.ex
+{
+padding: 0px;
+margin-left:0;
+margin-top:auto;
+border-radius:10px;
+border-style:ridge;
+border-width:lighter;
+box-shadow:3px 3px 1px #888888;
+background:#DDDFFF;
+font-size:20px;
+text-align:left;
+}
+div.ex h4 {
+color:#CC0000;
+}
+div.ex1
+{
+
+border:2px;
+border-style:ridge;
+border-width:lighter;
+box-shadow:3px 3px 1px #888888;
+background:#DDDFFF;
+font-size:25px;
+margin-top:auto;
+border-radius:10px;
+text-align:left;
+
+}
+
+div.notes{
+margin-top:10px;
+text-align:left;
+margin-right:0px;
+padding-left:8px;
+border-radius:10px;
+border-style:ridge;
+border-width:lighter;
+box-shadow:3px 3px 1px #888888;
+background:#DDDFFF;
+font-size:22px;
+}
+div.tfp{
+margin-top:10px;
+text-align:center;
+margin-right:0px;
+padding-left:8px;
+border-radius:10px;
+border-style:ridge;
+border-width:lighter;
+box-shadow:3px 3px 1px #888888;
+background:#DDDFFF;
+padding-left:10px;
+padding-right:10px;
+font-size:18px;
+}
