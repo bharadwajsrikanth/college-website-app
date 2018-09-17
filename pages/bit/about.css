@@ -1,0 +1,142 @@
+body {
+  font-family:Cambria,Candara,Arial;
+  background-color:#F4F4F4;
+}
+
+header{
+  width:100%;
+  background-color:#14466B;
+  color:white;
+  margin-right:auto;
+  margin-left:auto;
+ 
+}
+
+hgroup {
+  width:80%;
+  float:right;
+  font-size: 0.8em;
+}
+
+h1 {
+   text-transform:uppercase;
+   font-size:2em;
+   margin-left:20px;
+}
+
+h3 {
+   margin-top:0px;
+   margin-left:20px;
+}
+h5{
+   text-align:center;
+   margin-top:0;
+   font-size:2em;
+   }
+
+/*
+nav ul
+{
+list-style-type:none;
+width: 100%;
+background: #A41F23;
+clear: both;
+height: 26px;
+}
+	
+  
+nav li {
+   float:left;
+   margin-right:10px;
+   display: block;
+color: #FFFFFF;
+text-decoration: none;
+padding: 0px 13px;
+border-right: 1px solid #93171a;
+   
+}
+
+*/
+
+img {
+   float:right;
+   margin:0px 0px 10px 10px;
+   box-shadow: 3px 3px 5px 1px #cccccc;
+
+}
+   
+
+
+section {
+    width:70%;
+    background-color:white;
+    color:black;
+    margin-right:auto;
+    margin-left:auto;
+	margin-top:0px;
+    padding: 20px;
+    border: 1px solid #696;
+    border-radius: 50px;
+    
+}
+
+footer {
+    font-size:1.2em;
+    float:right;
+    width:100%;
+    background-color:#7B68EE;
+    color:black
+    
+}
+ul.menu-bar,
+ul.menu-bar li,
+ul.menu-bar2{
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+ul.menu-bar li {
+    display: block;
+    position: relative;
+    float: left;
+	
+}
+li ul.menu-bar2 {
+    display: none;
+	
+}
+
+ul.menu-bar li{
+font-size:16px;
+}
+ul.menu-bar li a {
+    display: block;
+	
+    text-decoration: none;
+    color: #ffffff;
+    border-top: 1px solid #ffffff;
+    padding: 8px 31.3px 8px 31.3px;
+    background: #7f462c;
+    margin-left: 1px;
+	float:center;
+    white-space: nowrap;
+}
+ul.menu-bar li a:hover {
+background: #3b3b3b;
+}
+li:hover ul.menu-bar2 {
+    display: block;
+    position: absolute;
+	
+}
+li:hover li {
+    float: none;
+    font-size: 11px;
+	
+}
+li:hover a { background:#3b3b3b; }
+li:hover li a:hover {
+    background: #3b3b3b;
+}
